@@ -1,3 +1,5 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 $url = "https://github.com/donothingday/setup-helper/releases/latest/download/setup-helper.exe"
 $out = "$env:TEMP\setup-helper.exe"
 
